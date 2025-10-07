@@ -49,4 +49,14 @@ print(mixedList);
 // removing from a specific location 
 mixedList.removeAt(4);
 print(mixedList);
+
+// Get the list length.
+// lenght -1 is the index of the last set
+// lenght -1 is the index of the last set
+print(mixedList.length);
+print(mixedList.length-1); 
+
+// You can also create a List using one of the constructors.
+var vegetables = List.filled(7, 'broccoli');// 7 is the number created 
+print(vegetables);
 }

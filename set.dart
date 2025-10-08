@@ -1,4 +1,6 @@
 void main(){
+    /**A Set in Dart is an unordered collection of unique items — meaning no duplicates are allowed.
+    */
 // Create an empty set of strings.
 var ingredients = <String>{};
 // OR 
@@ -36,5 +38,12 @@ print(lengthOf);
 // one of the constructors (Set.from).
 var atomicNumbers = Set.from([79, 22, 54]);
 print(atomicNumbers);
+
+// Set constructor used to values of a list into unquie values 
+// a converts a list into unquie values 
+
+var list = [1, 2, 2, 3, 4, 4];
+var uniqueNumbers = Set.from(list);
+print(uniqueNumbers); // {1, 2, 3, 4}
 
 }

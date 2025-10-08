@@ -33,6 +33,12 @@ print ("Married : $married");
 bool old = false;
 print("Eldery: $old");
 
+// an integer can be converted from a integer to a double as illrustrated below
+
+double z = 1; // Equivalent to double z = 1.0.
+print(z);
+
 }
 // we will talk about list and maps on a differnt directory .
+
 

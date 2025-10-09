@@ -29,6 +29,20 @@ var pin = [5,4];
     print("Invalid co-ordinates");
  }
 //  switch statements 
-
-
-}
+/** switch  simplifies the work to be done especially when dealing with muiltple conditions 
+ */
+ var grade = "D";
+ switch(grade){
+    case 'A':
+    print('Excellent');
+    break;
+    case 'B':
+    print('Good job');
+    break;
+    case 'C':
+    print('Passed');
+    break;
+    default:
+    print('Invalid grades');
+ }
+ }

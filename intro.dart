@@ -2,7 +2,6 @@
 // we have to ensure that we put the semi-colon at the end of every variable 
 
 void main() {
-  // look up function 
   print('Hello, World!');
   // if you intended not to change a variable we use const or final
   final day = 'Monstag';
